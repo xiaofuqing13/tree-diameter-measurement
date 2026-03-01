@@ -1,0 +1,25 @@
+<!--pages/home_page/home_page.wxml-->
+<!-- 相机-->
+<view class="container">
+  <view>
+    <image class= "show-image" mode="aspectFitf" src="{{src}}"></image>
+  </view>
+  <view>
+    <button class="choose-pic" type="primary" bindtap="pic">选择图片</button>
+  </view>
+  <view>
+    <button class="choose-pic" type="primary" bindtap="uploadparams">上传参数</button>
+  </view>
+  <modal hidden="{{hiddenmodalput}}" title="请输入相机倾斜角度" 
+   			confirm-text="提交" cancel-text="取消" bindcancel="cancel" 
+   			bindconfirm="confirm">
+     <!-- 这里可以自由选择你的输入框类型<input type='text' placeholder="请输入内容" auto-focus/> -->
+     <input placeholder="相机向身体倾斜为正，反之为负" bindinput="paramsInput"></input>
+   </modal>
+  <view>
+    <button class="DBH-Measure" type="primary" bindtap="measure">测量胸径</button>
+  </view>
+  <view>
+    <image class= "show-image" mode="aspectFitf" src='{{codeUrl}}'></image>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+@font-face {
+  font-family: 'iconfont';  /* project id 3084366 */
+  src: url('');
+  src: url('?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_3084366_12r3w8s93zej.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_3084366_12r3w8s93zej.woff') format('woff'),
+  url('//at.alicdn.com/t/font_3084366_12r3w8s93zej.ttf') format('truetype'),
+  url('#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yonghuming:before {
+  content: "\e64a";
+}
+
+.icon-mima:before {
+  content: "\e625";
+}
+

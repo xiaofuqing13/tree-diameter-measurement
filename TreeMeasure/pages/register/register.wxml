@@ -1,0 +1,25 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+  <view class="login-form">
+    <view class="input-view">
+      <icon class="iconfont icon-yonghuming"></icon>
+      <label class="register-label">账号</label>
+      <input class="input-text" placeholder="请输入用户名"  name='username' bindinput="usernameInput"/>
+    </view>
+    <view class="input-line"></view>
+    <view class="input-view">
+      <icon class="iconfont icon-mima"></icon>
+      <label class="register-label">密码</label>
+      <input class="input-text" password="true" placeholder="请输入密码"  name='pwd' bindinput="passwordInput"/>
+    </view>
+    <view class="input-line"></view>
+    <view class="input-view">
+      <icon class="iconfont icon-mima"></icon>
+      <label class="register-label">确认密码</label>
+      <input class="input-text" password="true" placeholder="请再次输入密码" bindinput="passwordAgainInput"  name='pwdAgain'/>
+    </view>
+    <view>
+      <button class="register-button" type="primary" bindtap="userRegister">注册</button>
+    </view>
+ </view>
+</view>

@@ -1,0 +1,26 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img" src="/utils/images/logo.jpg"></image>
+  </view>
+  <view class="login-form">
+    <view class="input-view">
+      <icon class="iconfont icon-yonghuming"></icon>
+      <label class="login-label">账号</label>
+      <input class="input-text" placeholder="请输入用户名" bindinput="identifierInput"/>
+    </view>
+    <view class="input-line"></view>
+    <view class="input-view">
+      <icon class="iconfont icon-mima"></icon>
+      <label class="login-label">密码</label>
+      <input class="input-text" password="true" placeholder="请输入密码" bindinput="passwordInput"/>
+    </view>
+    <view>
+      <button class="login-button" type="primary" bindtap="userLogin">登录</button>
+    </view>
+    <view >
+    <navigator class="register" url='/pages/register/register' open-type="navigate">注册</navigator>
+    </view>
+    
+ </view>
+</view>

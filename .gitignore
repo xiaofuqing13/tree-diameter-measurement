@@ -1,0 +1,10 @@
+__pycache__/
+*.pth
+checkpoints/
+*.pyc
+.idea/
+venv/
+.ipynb_checkpoints/
+*.DS_Store
+dist/
+node_modules/
