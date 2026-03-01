@@ -1,5 +1,8 @@
 # 基于机器视觉的林木胸径测量系统
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green)
+
+
 传统的林木胸径（DBH）测量需要人工用卷尺或测径器在树干1.3米高度处实地测量，一片林地上百棵树测下来耗时费力，特别是在地形复杂、树木密集的林区更加困难。本项目利用计算机视觉技术，通过手机拍摄树干照片，结合相机标定和图像分割算法自动计算树木胸径，实现非接触式测量。
 
 ## 痛点与目的
